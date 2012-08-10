@@ -8,6 +8,7 @@ A script to send wunderground rss data to pushover
 * Pushover account created via https://pushover.net
 * Pushover device client installed and setup with your account
 * Python installed
+* feedparser installed via http://code.google.com/p/feedparser/downloads/list
 
 ## Installation and Setup
 ==========================
@@ -25,4 +26,8 @@ A script to send wunderground rss data to pushover
 ## Testing
 ===========
 At this point, you're all setup.  Try running `python wunderground-pushover.py` and you should get notified with today's weather.
+
+For more fun, I set it up to run as a cron job to notify me every day at 6:50 am.
+
+
 
